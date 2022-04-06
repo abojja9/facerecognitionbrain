@@ -75,7 +75,7 @@ class App extends Component {
 
   onButtonChange = () => {
     this.setState({imageUrl: this.state.input});
-    fetch('http://10.1.5.17:3000/imageurl', {
+    fetch('https://mysterious-fjord-08911.herokuapp.com/imageurl', {
       method : 'POST',
       mode: 'cors',
       headers : {'Content-Type' : 'application/json'},
@@ -86,7 +86,7 @@ class App extends Component {
       .then(response => response.json())
       .then(response => {
         if (response){
-          fetch('http://10.1.5.17:3000/image', {
+          fetch('https://mysterious-fjord-08911.herokuapp.com/image', {
             method : 'PUT',
             mode: 'cors',
             headers : {'Content-Type' : 'application/json'},

@@ -19,7 +19,7 @@ const RegisterFn = ({ onRouteChange, loadUser }) => {
     console.log("Register Input:", e)
     // onRouteChange('register')
 
-    fetch('http://10.1.5.17:3000/register', {
+    fetch('https://mysterious-fjord-08911.herokuapp.com/register', {
             method : 'POST',
             mode: 'cors',
             headers : {'Content-Type' : 'application/json',
