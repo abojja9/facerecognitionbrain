@@ -1,8 +1,15 @@
 # Project Description
 
-Created a Full stack Face Recognition web application which detects the face in the provided image. The input image can be provided through a web link. Users of the application can register and sign in to detect the faces. Frontend is created with React.js and Backend is supported by Node.js, Express.js. Users information is stored in the Postgresql database. Here is a sample image of the application:
+Created a Full stack Face Recognition web application which detects the face in the provided image. The input image can be provided through a web link. Users of the application can register and sign in to detect the faces. Frontend is created with React.js and Backend is supported by Node.js, Express.js. Users information is stored in the Postgresql database. 
+Used Clarifai Face detection API to detect a face in the image. Once user provides the image url, the image is sent to the Clarifai face detection API and the response is collected. The response bounding box is then overlayed on the image.
 
+Here is a sample image of the application:
 
+<img
+  src="./face-recog-1.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 # Getting Started with Create React App
 
