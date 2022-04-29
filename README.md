@@ -1,3 +1,9 @@
+# Project Description
+
+Created a Full stack Face Recognition web application which detects the face in the provided image. The input image can be provided through a web link. Users of the application can register and sign in to detect the faces. Frontend is created with React.js and Backend is supported by Node.js, Express.js. Users information is stored in the Postgresql database. Here is a sample image of the application:
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
